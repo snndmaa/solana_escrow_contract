@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::{program::invoke, system_instruction};
 
-declare_id!("2WVfb7G4DuvwgkJ9wm5SSDypBLECTfmpL78CwAosE3AD");
+declare_id!("Bpy2YAC8LuB4Nvr1dAhQcQkvgAXt18SyjY5d61WAwePB");
 
 #[program]
 mod escrow {

@@ -4,14 +4,17 @@
 seeds = false
 skip-lint = false
 
+[programs.devnet]
+escrow = "Bpy2YAC8LuB4Nvr1dAhQcQkvgAXt18SyjY5d61WAwePB"
+
 [programs.localnet]
-escrow = "2WVfb7G4DuvwgkJ9wm5SSDypBLECTfmpL78CwAosE3AD"
+escrow = "Bpy2YAC8LuB4Nvr1dAhQcQkvgAXt18SyjY5d61WAwePB"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "/home/snndmaa/.config/solana/id.json"
 
 [scripts]
